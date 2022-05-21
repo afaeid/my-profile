@@ -145,8 +145,8 @@ header nav .logo a{
   justify-content: space-between;
   padding: 5px;
   z-index: 110;
-  left: 94%;
-  top: 20%;
+  right:0;
+  top: 25%;
   transform: translate(-50%,-50%);
 }
 .theme-settings .settings{
