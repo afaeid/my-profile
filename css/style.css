@@ -36,9 +36,10 @@ header nav .logo a{
   text-decoration: none;
   font-weight: normal;
 }
-.menu-icon img{
-  padding: 10px;
+.menu-icon button{
+  padding: 9px 10px;
   border-radius: 50%;
+  background: transparent;
  /* box-shadow: 1px 1.5px 1px 0px #D1D1D1,
               -1px -2px 1px 0px #fff;*/
 }
@@ -94,7 +95,8 @@ header nav .logo a{
 }
 .row1 div,button{
   margin: 10px 0;
-  z-index: 100
+  z-index: 100;
+  color: var(--black-color);
 }
 .row1 .hello{
   font-weight: 250;
@@ -123,7 +125,7 @@ header nav .logo a{
   box-shadow:  inset 1px 1.5px 1px 0px #D1D1D1,
                    inset -1px -2px 1px 1px #fff;
   padding: 5px;
-  background: #CED2FF;
+  background: var(--loading-color);
   z-index: 100;
 }
 .row2 .img-cover{
@@ -176,6 +178,9 @@ header nav .logo a{
 
 
 /*====== MORE CSS ======*/
+svg{
+  fill:var(--black-color)
+}
 .pad-10-35{
   padding: 0px 35px
 }
@@ -216,6 +221,7 @@ header nav .logo a{
   transform: translate(-50%,-50%);
   top: 42%;
   left: 60%;
+  z-index: 1;
 }
 @keyframes left-right{
   from{
