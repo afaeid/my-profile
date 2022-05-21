@@ -29,11 +29,14 @@
    height: 265px;
    
  }
+ .theme-settings{
+   left: 90%;
+ }
  
  
  
  
- 
+ /* ======= More CSS ====== */
  .pad-10-35{
    padding: 10px 20px;
  }
