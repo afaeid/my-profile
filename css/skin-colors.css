@@ -1,0 +1,15 @@
+:root{
+  --bg-color:#F4F5FF;
+  --style-font-color1:#42445A;
+  --style-font-color2: #F48FB1;
+  --outer-shadow:   1px 1.5px 2px 0px #D1D1D1,
+                   -1px -1px 2px 1px #fff;
+  --inner-shadow:  inset 1px 1.5px 1px 0px #D1D1D1,
+                   inset -1px -2px 1px 1px #fff;         
+}
+.dark-theme{
+  /* Dark Theme Colors*/
+ 
+ 
+ 
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.main-container{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-color);
+  position: relative;
+  /* padding: 10px 20px; */
+}
+header{
+  width: 100%;
+  min-height: 100px;
+}
+header nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 35px;
+}
+header nav .logo a{
+  font-size: 25px;
+  padding: 8px 11px;
+  border-radius: 50%;
+  border: 2px solid #F48FB1;
+  font-family: 'Autour One', cursive;
+  color: var(--style-font-color2);
+  text-decoration: none;
+  font-weight: normal;
+}
+.menu-icon img{
+  padding: 10px;
+  border-radius: 50%;
+ /* box-shadow: 1px 1.5px 1px 0px #D1D1D1,
+              -1px -2px 1px 0px #fff;*/
+}
+.nav-links{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-color);
+  /* background: green; */
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  z-index: 101; 
+  /* padding: 0 40   px; */
+}
+.nav-links button{
+  position: absolute;
+  top: 0px;
+  right:35px;
+  padding: 5px 7px;
+  border-radius:50%;
+  background: var(--bg-color);
+}
+.nav-links li{
+  list-style: none;
+  margin: 35px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.nav-links li a{
+  color: var(--style-font-color1);
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 8px 22px;
+  border-radius: 20px;
+}
+.nav-links li a:hover{
+  color:var(--style-font-color2);
+}
+.container-home{
+  width: 100%;
+  min-height: 90vh;
+  background: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index:10;
+}
+.row2{
+  order:1;
+}
+.row1 div,button{
+  margin: 10px 0;
+  z-index: 100
+}
+.row1 .hello{
+  font-weight: 250;
+  font-family: 'Roboto Flex', sans-serif;
+}
+.row1 .name{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.row1 .proffession{
+  font-family: 'Roboto Flex',sans-serif;
+  font-weight: bold;
+}
+.row1 .more-btn button{
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: var(--style-font-color2);
+  background: var(--bg-color);
+}
+.row2 img{
+  width: 350px;
+  height:350px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow:  inset 1px 1.5px 1px 0px #D1D1D1,
+                   inset -1px -2px 1px 1px #fff;
+  padding: 5px;
+  background: #CED2FF;
+  z-index: 100;
+}
+.row2 .img-cover{
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+.theme-settings{
+  min-width: 10px;
+  height: 150px;
+  position: fixed;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  z-index: 110;
+  left: 90%;
+  top: 20%;
+  transform: translate(-50%,-50%);
+}
+.theme-settings .settings{
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-icon{
+  border-radius: 50%;
+  background: var(--bg-color);
+  padding:8px 10px;
+}
+
+
+
+
+
+
+
+/*====== MORE CSS ======*/
+
+
+
+
+
+.pad-10-35{
+  padding: 0px 35px
+}
+.icon{
+  outline: none;
+  border: none;
+  /* background: transparent; */
+}
+.btn-style{
+  box-shadow: var(--outer-shadow);
+}
+.btn-style:hover{
+  box-shadow: var(--inner-shadow);
+}
+.abstract-default{
+  position: absolute;
+}
+.abstract-circle{
+  width: 150px;
+  height: 50px;
+  top: 5px;
+  left: 85%;
+  transform: translate(-300px, -5px);
+  animation:left-right 5s linear infinite alternate; 
+}
+.abstract-dots{
+  width: 70px;
+  height: 120px;
+  top: 90%;
+  left: 5%;
+  z-index: 1;
+  animation:up-down 5s linear infinite alternate;
+  transform: translate(-50%, -50%)
+}
+@keyframes left-right{
+  from{
+    left:80%;
+  }
+  to{
+    left:60%;
+  }
+}
+@keyframes up-down{
+  from{
+    top: 89%;
+  }
+  to{
+    top: 85%;
+  }
+}
+.anim-rotate{
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  100%{
+    transform: rotate(1turn);
+  }
+}
