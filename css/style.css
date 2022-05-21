@@ -92,6 +92,7 @@ header nav .logo a{
 }
 .row2{
   order:1;
+  position: relative;
 }
 .row1 div,button{
   margin: 10px 0;
@@ -122,21 +123,23 @@ header nav .logo a{
   height:350px;
   border-radius: 50%;
   pointer-events: none;
-  box-shadow:  inset 1px 1.5px 1px 0px #D1D1D1,
-                   inset -1px -2px 1px 1px #fff;
+  box-shadow:  /*inset 1px 1.5px 1px 0px #D1D1D1,
+                   inset -1px -2px 1px 1px #fff;*/
+                   var(--inner-shadow);
   padding: 5px;
-  background: var(--loading-color);
-  z-index: 100;
+  z-index: -1;
 }
 .row2 .img-cover{
   width: 380px;
   height: 380px;
+  position: relative;
   border-radius: 50%;
   background: var(--bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 50;
+  box-shadow: var(--outer-shadow);
 }
 .theme-settings{
   min-width: 10px;
@@ -161,7 +164,17 @@ header nav .logo a{
   background: var(--bg-color);
   padding:8px 10px;
 }
-
+ .row2 .img-loader{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: var(--loading-color);
+  position: absolute;
+  z-index: 200;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
 
 
 
@@ -246,4 +259,7 @@ svg{
   100%{
     transform: rotate(1turn);
   }
+}
+.hide{
+  display: none;
 }
