@@ -170,7 +170,7 @@ header nav .logo a{
   border-radius: 50%;
   background: var(--loading-color);
   position: absolute;
-  z-index: 200;
+  z-index: 100;
   transform: translate(-50%,-50%);
   top: 50%;
   left: 50%;

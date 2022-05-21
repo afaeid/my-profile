@@ -25,7 +25,5 @@ themeButton.onclick = ()=>{
 var profImg = document.querySelector('.profile-img');
 var imgLoader = document.querySelector('.img-loader');
 profImg.onload = ()=>{
-  profImg.style.background = 'transparent';
   imgLoader.classList.toggle('hide');
-  // imgLoader.style.display = 'none';
 }
