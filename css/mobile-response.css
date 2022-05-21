@@ -56,6 +56,10 @@
   left: 15%;
   animation:up-down 5s linear infinite alternate;
 }
+.abstract-arrow{
+  top: 20%;
+  left: 20%;
+}
 @keyframes left-right{
   from{
     left:70%;
