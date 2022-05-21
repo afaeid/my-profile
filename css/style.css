@@ -223,7 +223,7 @@ header nav .logo a{
   }
 }
 .anim-rotate{
-  animation: spin 3s linear infinite;
+  animation: spin 5s linear infinite;
 }
 @keyframes spin {
   100%{
