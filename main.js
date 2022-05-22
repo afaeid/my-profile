@@ -10,18 +10,27 @@ menuCloseBtn.onclick = ()=>{
 }
 /* ======== For changing Theme  ==========*/
 var themeButton = document.querySelector('.theme-button');
-var themeIcon = document.querySelector('.theme-button img')
+var themeIconMoon = document.querySelector('.theme-button .moon-icon')
+var themeIconSun = document.querySelector('.theme-button .sun-icon')
 
 themeButton.onclick = ()=>{
   document.body.classList.toggle('dark-theme')
   if(document.body.classList.contains('dark-theme')){
-    themeIcon.src = 'images/icons/sun.svg'
+    themeIconSun.style.display ='inline-block';
+    themeIconMoon.style.display ='none';
   }
   else{
-    themeIcon.src = 'images/icons/moon.svg'
+    themeIconSun.style.display = 'none';
+    themeIconMoon.style.display = 'inline-block';
   }
   
 }
+
+
+
+
+
+/*===== For a loader on profile Iamge ====== */
 var profImg = document.querySelector('.profile-img');
 var imgLoader = document.querySelector('.img-loader');
 profImg.onload = ()=>{

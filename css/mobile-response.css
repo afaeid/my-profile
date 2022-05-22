@@ -34,10 +34,15 @@
    top: 20%;
  }
  .row2 .img-loader{
-   width: 280px;
-   height: 280px;
+   width: 250px;
+   height: 250px;
  }
- 
+ .loader{
+   width: 40px;
+   height: 40px;
+   left: 42%;
+   top: 42%;
+ }
  
  
  
