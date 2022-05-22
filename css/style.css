@@ -165,8 +165,8 @@ header nav .logo a{
   padding:8px 10px;
 }
  .row2 .img-loader{
-  width: 280px;
-  height: 280px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   background: var(--loading-color);
   position: absolute;
@@ -175,7 +175,18 @@ header nav .logo a{
   top: 50%;
   left: 50%;
 }
-
+.loader{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #283AFF;
+  border-bottom-color:#fff;
+  left: 40%;
+  top: 40%;
+  position: absolute;
+  /* transform: translate(-50%,-50%); */
+  animation: spin 1s linear infinite;
+}
 
 
 
