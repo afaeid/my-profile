@@ -25,7 +25,11 @@ themeButton.onclick = ()=>{
   }
   
 }
-
+/*
+window.onload = ()=> {
+  document.body.classList.add('dark-theme')
+}
+*/
 
 
 
