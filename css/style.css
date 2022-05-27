@@ -235,8 +235,8 @@ svg{
 .abstract-dots{
   width: 70px;
   height: 120px;
-  top: 90%;
-  left: 5%;
+  top: 60%;
+  left: 60%;
   z-index: 1;
   animation:up-down 5s linear infinite alternate;
   transform: translate(-50%, -50%)
@@ -259,10 +259,10 @@ svg{
 }
 @keyframes up-down{
   from{
-    top: 89%;
+    top: 58%;
   }
   to{
-    top: 85%;
+    top: 55%;
   }
 }
 .anim-rotate{
