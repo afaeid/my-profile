@@ -8,7 +8,7 @@ a{
   text-decoration: none;
 }
 .main-container{
-  width: 100%;
+  max-width: 1080px;
   min-height: 100vh;
   background: var(--bg-color);
   position: relative;
