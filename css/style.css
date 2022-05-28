@@ -203,7 +203,7 @@ header nav .logo a{
 }
 .conatiner-about{
   width: 100%;
-  min-height:200px;
+  min-height:100vh;
 }
 .about .main-title,.semi-title
 {
@@ -220,11 +220,30 @@ header nav .logo a{
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
-
-
-
-
-
+.about .conatiner-about .main-bio{
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.main-bio .col-1{
+  width: 35%;
+  /*background: red;*/
+  position: relative;
+}
+.profile-img2{
+  width: 100%;
+}
+.main-bio .col-2{
+  width: 60%;
+  color: #777;
+  font-family: 'Raleway',sans-serif;
+}
+.main-bio .col-2 span{
+  color: var(--style-font-color1);
+  font-weight: 600;
+}
 
 
 
