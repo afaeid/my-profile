@@ -235,7 +235,7 @@ svg{
 .abstract-dots{
   width: 70px;
   height: 120px;
-  top: 60%;
+  top: 65%;
   left: 60%;
   z-index: 1;
   animation:up-down 5s linear infinite alternate;

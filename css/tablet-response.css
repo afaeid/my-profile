@@ -1,0 +1,14 @@
+@media screen and (min-width:481px) and (max-width:990px){
+  
+  .row2 img{
+    width: 280px;
+    height: 280px;
+  }
+  .row2 .img-cover{
+    width: 310px;
+    height: 310px;
+  }
+  
+}
+
+
