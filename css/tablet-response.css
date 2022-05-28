@@ -5,8 +5,16 @@
     height: 280px;
   }
   .row2 .img-cover{
-    width: 310px;
-    height: 310px;
+    width: 300px;
+    height: 300px;
+  }
+  .row2 .img-loader{
+    width: 280px;
+    height: 280px;
+  }
+  .row2 .img-loader .loader{
+    width: 40px;
+    height: 40px;
   }
   
 }
