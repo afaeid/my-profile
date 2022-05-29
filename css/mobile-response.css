@@ -44,8 +44,18 @@
    left: 42%;
    top: 42%;
  }
- 
- 
+ .main-bio {
+   flex-direction: column;
+ }
+ .main-bio .col-1{
+   width: 100%;
+
+ }
+ .main-bio .col-2{
+   width: 100%;
+   margin: 20px;
+   margin-left: 0;
+ }
  
  
  
