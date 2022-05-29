@@ -40,3 +40,13 @@ var imgLoader = document.querySelector('.img-loader');
 profImg.onload = ()=>{
   imgLoader.classList.toggle('hide');
 }
+
+
+
+
+var navLi = document.querySelectorAll('.nav-links ul li');
+navLi.forEach(li=>{
+  li.onclick = ()=>{
+    menu.style.display ='none';
+  }
+})
