@@ -202,11 +202,11 @@ header nav .logo a{
 }
 .about{
   width: 100%;
-  min-height: 200px;
+  min-height: 500px;
 }
 .conatiner-about{
   width: 100%;
-  min-height:100vh;
+  min-height:200px;
 }
 .about .main-title,.semi-title
 {
@@ -245,19 +245,22 @@ header nav .logo a{
 .profile-img2{
   width: 260px;
   height: 265px;
-  box-shadow: var(--outer-shadow);
+ box-shadow: var(--inner-shadow);
   padding: 1px;
   border-radius: 2px;
+  padding: 8px;
 }
 .main-bio .col-1 .img-cover{
   width: 280px;
   height: 285px;
-  box-shadow: var(--inner-shadow);
+  box-shadow: var(--outer-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 2px;
   background: var(--bg-color);
+
+  
 }
 .main-bio .col-1 .social-links{
   width: 100%;
@@ -309,6 +312,60 @@ header nav .logo a{
   font-size: 15px;
   font-weight: 500;;
 }
+.progressbar-and-timeline{
+  width: 100%;
+  min-height: 500px;
+  background: var(--bg-color);
+  font-family: 'Raleway',sans-serif;
+}
+.progressbar-and-timeline .item-titles{
+  width: 100%;
+  text-align: center;
+}
+.progressbar-and-timeline .item-titles a{
+  margin: 0 2px;
+  color: var(--style-font-color2);
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.progressbar-and-timeline .item-titles a:nth-child(1){
+  box-shadow: var(--outer-shadow)
+}
+.progressbar-and-timeline .changeable-section{
+  width: 100%;
+  min-height: 500px;
+  background: var(--bg-color);
+}
+.progressbar-and-timeline .changeable-section .progressbars{
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.progressbar-and-timeline .changeable-section .progressbars .progress{
+  width: calc(50% - 20px);
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: var(--inner-shadow)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
