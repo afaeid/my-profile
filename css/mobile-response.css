@@ -56,7 +56,9 @@
    margin: 20px;
    margin-left: 0;
  }
- 
+ .progressbar-and-timeline .changeable-section .progressbars .progress{
+   width: 100%;
+ }
  
  
  
