@@ -393,6 +393,127 @@ header nav .logo a{
 
 
 
+.timeline-cover{
+  max-width: 1080px;
+  margin: 0px 0px; 
+  padding: 20px 40px;
+  position: relative;
+ background: var(--bg-color);
+}
+
+.timeline-cover .timeline-line{
+  width: 1px;
+  height: calc(100% - 20px);
+  background: #CBCBCB;
+  left: 50%;
+  background: #BABABA;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.timeline-row{
+  display: flex;
+  position: relative;
+}
+.timeline-row1{
+  justify-content: flex-start;
+}
+.timeline-row2{
+  justify-content: flex-end;
+}
+.timeline-row section{
+  background:var(--bg-color);
+  width:calc(50% - 40px);
+  min-height: 220px;
+  border-radius: 5px;
+  box-shadow: var(--outer-shadow);
+  padding: 30px;
+  position: relative;
+  z-index: 10;
+}/*
+.row1 section::before{
+  width: 20px;
+  height: 20px;
+  content: "";
+  position: absolute;
+  background: var(--bg-color);
+  border: 1px solid #BABABA;
+  right: 0;
+  transform: rotate(45deg);
+  z-index:-1;
+}*/
+.timelime-icon{
+  position: absolute;
+  left: 50%;
+  top: 15px;
+  transform: translateX(-50%);
+  padding: 10px 12px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: var(--bg-color);/*
+  box-shadow: var(--outer-shadow)*/
+  border: 1px solid #BABABA;
+}
+.timeline-cover .timeline-row .timeline-time{
+  color: var(--style-font-color2);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.timeline-cover .timeline-row1 .timeline-time{
+  text-align: right
+}
+.timeline-cover .timeline-row1 .timeline-title{
+  text-align: right
+}
+.timeline-cover .timeline-row1 .timeline-place{
+  text-align: right
+}
+.timeline-cover .timeline-row1 .timeline-description{
+  text-align: right
+}
+.timeline-cover .timeline-row2 .timeline-time, .timeline-title,
+.timeline-place, .timeline-description{
+  text-align: left
+}
+.timeline-cover .timeline-row 
+.timeline-title{
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  color: var(--style-font-color1);
+}
+.timeline-cover .timeline-row
+.timeline-place{
+  font-family: 'Raleway',sans-serif;
+  font-style: italic;
+  color: #9E9E9E;
+  font-size: 15px;
+}
+.timeline-cover .timeline-row .timeline-description{
+  margin-top: 20px;
+  font-size: 15px;
+  color: #9E9E9E;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+}
+.timeline-cover svg{
+  fill:var(--style-font-color2);
+  width: 18px;
+  height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
