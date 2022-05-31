@@ -32,13 +32,13 @@ header nav{
 }
 header nav .logo a{
   font-size: 25px;
-  padding: 8px 11px;
+  padding: 10px 12px;
   border-radius: 50%;
   border: 2px solid #F48FB1;
-  font-family: 'Autour One', cursive;
+  font-family:'Raleway',sans-serif;
   color: var(--style-font-color2);
   text-decoration: none;
-  font-weight: normal;
+  font-weight:700;
 }
 .menu-icon button{
   padding: 9px 10px;
