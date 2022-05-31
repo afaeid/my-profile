@@ -349,14 +349,38 @@ header nav .logo a{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.progressbar-and-timeline .changeable-section .progressbars .progress{
-  width: calc(50% - 20px);
+.progressbar-and-timeline .changeable-section .progressbars .progress-box{
+  width: calc(50% - 40px);
+  height: 100px;
+  position: relative;
+  padding: 0 10px;
+}
+.progressbar-and-timeline .changeable-section .progressbars .progress-box .progress-name{
+  color: var(--style-font-color1);
+  font-weight: 400;
+}
+.progressbar-and-timeline .changeable-section .progressbars .progress-box .progress-indicator-numeric{
+  position: absolute;
+  left: 100%;
+  transform: translateX(-50%);
+  color: var(--style-font-color1);
+  font-weight: 400;
+}
+.progressbar-and-timeline .changeable-section .progressbars .progress-box .progress-indicator {
+  width: 100%;
   height: 20px;
   border-radius: 10px;
   box-shadow: var(--inner-shadow);
   margin: 20px 0;
+  padding: 0 8px;
 }
-
+.progressbar-and-timeline .changeable-section .progressbars .progress-box .progress-indicator span{
+  width: 100%;
+  border-radius: 5px;
+  height: 10px;
+  background: var(--style-font-color1);
+  display: inline-block
+}
 
 
 
