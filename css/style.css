@@ -332,6 +332,7 @@ header nav .logo a{
   padding: 8px 10px;
   border-radius: 20px;
   font-weight: 500;
+  transition: box-shadow 0.5s;
 }
 .progressbar-and-timeline .item-titles a:nth-child(1){
   box-shadow: var(--outer-shadow);
