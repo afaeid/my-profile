@@ -1,4 +1,4 @@
-@media(max-width:480px){
+@media(max-width:480px) {
  header nav{
    height: 70px;
    padding:0 10px;
@@ -59,6 +59,75 @@
  .progressbar-and-timeline .changeable-section .progressbars .progress-box{
    width: 100%;
  }
+ 
+ 
+ 
+   .timeline-cover .timeline-line {
+    display: none;
+  }
+
+  .timelime-icon {
+    display: none;
+  }
+
+  .timeline-row section {
+    width: 100%;
+  }
+
+  .timeline-row1 {
+    justify-content: flex-start;
+  }
+
+  .timeline-row2 {
+    justify-content: flex-start;
+  }
+
+  .timeline-cover .timeline-row1 .timeline-time {
+    text-align: left
+  }
+
+  .timeline-cover .timeline-row1 .timeline-title {
+    text-align: left
+  }
+
+  .timeline-cover .timeline-row1 .timeline-place {
+    text-align: left
+  }
+
+  .timeline-cover .timeline-row1 .timeline-description {
+    text-align:left
+  }
+
+  .timeline-cover .timeline-row2 .timeline-time,
+  .timeline-title,
+  .timeline-place,
+  .timeline-description {
+    text-align: left
+  }
+  .timeline-row{
+    
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .timeline-cover{
+    padding: 10px 15px
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
