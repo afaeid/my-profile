@@ -502,7 +502,9 @@ header nav .logo a{
   width: 18px;
   height: 18px;
 }
-
+.about .changeable-section2{
+  display: none;
+}
 
 
 
@@ -595,7 +597,7 @@ svg{
   }
 }
 .anim-rotate{
-  animation: spin 5s linear infinite;
+  animation: spin 4s linear infinite;
 }
 @keyframes spin {
   100%{

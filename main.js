@@ -23,37 +23,69 @@ themeButton.onclick = ()=>{
     themeIconSun.style.display = 'none';
     themeIconMoon.style.display = 'inline-block';
   }
-  
 }
-/*
-window.onload = ()=> {
-  document.body.classList.add('dark-theme')
-}
-*/
-
-
-
-
-/*===== For a loader on profile Iamge ====== */
+/*===== For the loader on profile Iamge ====== */
 var profImg = document.querySelector('.profile-img');
 var imgLoader = document.querySelector('.img-loader');
 profImg.onload = ()=>{
  imgLoader.classList.toggle('hide');
-/*
-if(profImg.onload){
-  imgLoader.style.display = 'none'
 }
-else{
-  imgLoader.style.display = 'inline-block'
-}*/
-}
-
-
-
-
+/* For closing the navbar when click any  page name */
 var navLi = document.querySelectorAll('.nav-links ul li');
 navLi.forEach(li=>{
   li.onclick = ()=>{
     menu.style.display ='none';
   }
 })
+
+
+/* Changing the title style & section of about section */
+var skill = document.querySelector('.about .item-titles a:nth-child(1)');
+var experience = document.querySelector('.about .item-titles a:nth-child(2)');
+var education = document.querySelector('.about .item-titles a:nth-child(3)');
+
+var sectionSkill = document.querySelector('.changeable-section1')
+var sectionExperience = document.querySelector('.changeable-section2')
+var sectionEducation = document.querySelector('.changeable-section3');
+
+skill.onclick = ()=>{
+  skill.style.color = 'var(--style-font-color2)';
+  experience.style.color = 'var(--style-font-color1)';
+  education.style.color = 'var(--style-font-color1)'
+  
+  skill.style.boxShadow = 'var(--outer-shadow)';
+  experience.style.boxShadow = 'none';
+  education.style.boxShadow = 'none';
+  
+  sectionSkill.style.display = 'block';
+  sectionExperience.style.display = 'none';
+  sectionEducation.style.display = 'none';
+}
+experience.onclick = ()=>{
+  
+  skill.style.color = 'var(--style-font-color1)';
+  experience.style.color = 'var(--style-font-color2)';
+  education.style.color = 'var(--style-font-color1)'
+  
+  skill.style.boxShadow = 'none';
+  experience.style.boxShadow = 'var(--outer-shadow)';
+  education.style.boxShadow = 'none';
+
+  sectionSkill.style.display = 'none';
+  sectionExperience.style.display = 'block';
+  sectionEducation.style.display = 'none';
+}
+education.onclick = ()=>{
+  
+  skill.style.color = 'var(--style-font-color1)';
+  experience.style.color = 'var(--style-font-color1)';
+  education.style.color = 'var(--style-font-color2)'
+  
+  skill.style.boxShadow = 'none';
+  experience.style.boxShadow = 'none';
+  education.style.boxShadow = 'var(--outer-shadow)';
+
+  sectionSkill.style.display = 'none';
+  sectionExperience.style.display = 'none';
+  sectionEducation.style.display = 'block';
+}
