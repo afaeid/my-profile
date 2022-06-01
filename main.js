@@ -38,7 +38,14 @@ window.onload = ()=> {
 var profImg = document.querySelector('.profile-img');
 var imgLoader = document.querySelector('.img-loader');
 profImg.onload = ()=>{
-  imgLoader.classList.toggle('hide');
+ imgLoader.classList.toggle('hide');
+/*
+if(profImg.onload){
+  imgLoader.style.display = 'none'
+}
+else{
+  imgLoader.style.display = 'inline-block'
+}*/
 }
 
 
