@@ -483,6 +483,7 @@ header nav .logo a{
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
   color: var(--style-font-color1);
+  margin-left: 3px;
 }
 .timeline-cover .timeline-row
 .timeline-place{
@@ -503,7 +504,7 @@ header nav .logo a{
   width: 18px;
   height: 18px;
 }
-.about .changeable-section2{
+.about .changeable-section2, .changeable-section3{
   display: none;
 }
 
