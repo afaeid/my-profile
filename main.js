@@ -39,14 +39,22 @@ navLi.forEach(li=>{
 })
 
 
+
+
+
+
+
 /* Changing the title style & section of about section */
 var skill = document.querySelector('.about .item-titles a:nth-child(1)');
 var experience = document.querySelector('.about .item-titles a:nth-child(2)');
 var education = document.querySelector('.about .item-titles a:nth-child(3)');
+var moreMemory = document.querySelector('.about .item-titles a:nth-child(4)');
+
 
 var sectionSkill = document.querySelector('.changeable-section1')
 var sectionExperience = document.querySelector('.changeable-section2')
 var sectionEducation = document.querySelector('.changeable-section3');
+var sectionMoreMemory = document.querySelector('.changeable-section4')
 
 skill.onclick = ()=>{
   skill.style.color = 'var(--style-font-color2)';
