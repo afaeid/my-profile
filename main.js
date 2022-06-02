@@ -27,7 +27,7 @@ themeButton.onclick = ()=>{
 /*===== For the loader on profile Iamge ====== */
 var profImg = document.querySelector('.profile-img');
 var imgLoader = document.querySelector('.img-loader');
-profImg.onload = ()=>{
+window.onload = ()=>{
  imgLoader.classList.toggle('hide');
 }
 /* For closing the navbar when click any  page name */
