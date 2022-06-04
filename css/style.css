@@ -118,8 +118,9 @@ header nav .logo a{
   font-size: 30px;
 }
 .row1 .proffession{
-  font-family: 'Roboto Flex',sans-serif;
-  font-weight: bold;
+  font-family: 'Raleway',cursive;
+  font-weight:400;
+  font-size: 14px;
 }
 .row1 .more-btn button{
   padding: 10px 15px;
