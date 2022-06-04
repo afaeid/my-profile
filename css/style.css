@@ -245,10 +245,11 @@ header nav .logo a{
 .profile-img2{
   width: 260px;
   height: 265px;
- box-shadow: var(--inner-shadow);
+  box-shadow: var(--inner-shadow);
   padding: 1px;
   border-radius: 2px;
   padding: 8px;
+  pointer-events: none;
 }
 .main-bio .col-1 .img-cover{
   width: 280px;
