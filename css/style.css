@@ -209,17 +209,18 @@ header nav .logo a{
   width: 100%;
   min-height:200px;
 }
-.about .main-title,.semi-title
+.main-title,.semi-title
 {
  text-align: center; 
 }
-.about .conatiner-about .main-title{
+
+.main-title{
   line-height: 20px;
   color: var(--style-font-color2);
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
-.about .conatiner-about .semi-title{
+.semi-title{
   line-height: 45px;
   font-size: 30px;
   color: var(--style-font-color1);
@@ -510,6 +511,89 @@ header nav .logo a{
 .about .changeable-section2, .changeable-section3, .changeable-section4{
   display: none;
 }
+.service{
+  width: 100%;
+  min-height: 500px;
+}
+.container-service{
+  width: 100%;
+  min-height: 200px;
+}
+.services-cover{
+  width: 100%;
+  min-height: 500px;
+}
+.services-cover .services{
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Raleway',cursive;
+}
+.services-cover .services .service-box{
+  box-shadow: var(--outer-shadow);
+  width: 30%;
+  min-height: 200px;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px;
+}
+.services-cover .services .service-box .service-logo{
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-cover .services .service-box .service-logo button {
+  width: 50px;
+  height: 50px;
+  padding: 8px 10px;
+  background: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  box-shadow: var(--inner-shadow);
+  border-radius: 50%
+}
+.services-cover .services .service-box .service-logo button svg{
+  width: 20px;
+  height: 20px;
+  transition: transform 0.4s;
+  fill:var(--style-font-color1)
+  
+}
+.services-cover .services .service-box .service-logo button:hover svg{
+  transform: scale(1.5);
+  fill: var(--style-font-color2)
+}
+.services-cover .services .service-box .service-name{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--style-font-color1);
+  font-weight: 700;
+  font-size: 20px;
+}
+.services-cover .services .service-box .service-description{
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  color: var(--semi-white-color);
+  margin-top: 10px;
+}
+
 
 
 
@@ -541,10 +625,11 @@ header nav .logo a{
 
 /*====== MORE CSS ======*/
 svg{
-  fill:var(--black-color)
+  fill:var(--black-color);
+  cursor:pointer;
 }
 .pad-10-35{
-  padding: 0px 35px
+  padding: 20px 35px
 }
 .icon{
   outline: none;
