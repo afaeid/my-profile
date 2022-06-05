@@ -569,7 +569,10 @@ header nav .logo a{
 }
 .services-cover .services .service-box .service-logo button:hover svg{
   transform: scale(1.5);
-  fill: var(--style-font-color2)
+  fill: var(--style-font-color2);
+}
+.services-cover .services .service-box .service-logo button:hover{
+  box-shadow: var(--outer-shadow)
 }
 .services-cover .services .service-box .service-name{
   width: 100%;
