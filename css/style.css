@@ -87,7 +87,7 @@ header nav .logo a{
 }
 .container-home{
   width: 100%;
-  min-height: 90vh;
+  min-height: 95vh;
   background: var(--bg-color);
   display: flex;
   align-items: center;
@@ -97,7 +97,7 @@ header nav .logo a{
 }
 .home{
   width: 100%;
-  min-height: 100vh;
+  
 }
 .row2{
   order:1;
@@ -203,7 +203,8 @@ header nav .logo a{
 }
 .about{
   width: 100%;
-  min-height: 500px;
+  min-height: 100vh;
+  display: none;
 }
 .conatiner-about{
   width: 100%;
@@ -513,7 +514,11 @@ header nav .logo a{
 }
 .service{
   width: 100%;
-  min-height: 500px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 .container-service{
   width: 100%;
@@ -539,6 +544,10 @@ header nav .logo a{
   border-radius: 5px;
   padding: 30px;
   margin: 10px;
+  transition: transform 0.4s;
+}
+.services-cover .services .service-box:hover{
+  transform: scale(1.1)
 }
 .services-cover .services .service-box .service-logo{
   width: 100%;

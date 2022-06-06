@@ -8,6 +8,38 @@ menuOpenBtn.onclick = ()=>{
 menuCloseBtn.onclick = ()=>{
   menu.style.display = 'none';
 }
+
+/* For going into different section through nav bar.*/
+var homePage = document.querySelector('.container-home');
+var aboutPage = document.querySelector('.about');
+var servicePage = document.querySelector('.service');
+function openHomeSection(){
+  homePage.style.display = 'flex';
+  aboutPage.style.display = 'none';
+  servicePage.style.display = 'none';
+}
+function openAboutSection(){
+  homePage.style.display = 'none';
+  aboutPage.style.display = 'flex';
+  servicePage.style.display = 'none';
+}
+function openServiceSection(){
+  homePage.style.display = 'none';
+  aboutPage.style.display = 'none';
+  servicePage.style.display = 'flex';
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======== For changing Theme  ==========*/
 var themeButton = document.querySelector('.theme-button');
 var themeIconMoon = document.querySelector('.theme-button .moon-icon')
