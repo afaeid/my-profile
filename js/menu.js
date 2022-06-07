@@ -8,3 +8,10 @@ menuOpenBtn.onclick = ()=>{
 menuCloseBtn.onclick = ()=>{
   menu.style.display = 'none';
 }
+/* For closing the navbar when click any  page name */
+var navLi = document.querySelectorAll('.nav-links ul li');
+navLi.forEach(li=>{
+  li.onclick = ()=>{
+    menu.style.display ='none';
+  }
+})
