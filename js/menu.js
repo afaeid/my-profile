@@ -15,12 +15,3 @@ navLi.forEach(li=>{
     menu.style.display ='none';
   }
 })
-var mImg = document.querySelectorAll('img');
-var bgImg = document.querySelectorAll('.bg-load');
-
- 
-    bgImg.forEach(img =>{
-      img.onload = ()=>{
-        img.style.background = 'none'
-      }
-    })
