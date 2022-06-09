@@ -135,7 +135,7 @@ header nav .logo a{
   width: 350px;
   height:350px;
   border-radius: 50%;
-  /*pointer-events: none;*/
+  pointer-events: none;
   box-shadow: var(--inner-shadow);
   padding: 5px;
   z-index: -1;
