@@ -3,7 +3,9 @@
 var homePage = document.querySelector('.container-home');
 var aboutPage = document.querySelector('.about');
 var servicePage = document.querySelector('.service');
-var portfolioPage = document.querySelector('.portfolio')
+var portfolioPage = document.querySelector('.portfolio');
+var contactPage = document.querySelector('.contact')
+
 function openHomeSection(){
   
   localStorage.setItem('homePage','home');
@@ -11,11 +13,14 @@ function openHomeSection(){
   localStorage.removeItem('aboutPage');
   localStorage.removeItem('servicePage');
   localStorage.removeItem('portfolioPage');
+  localStorage.removeItem('contactPage')
   
   homePage.style.display = 'flex';
   aboutPage.style.display = 'none';
   servicePage.style.display = 'none';
   portfolioPage.style.display = 'none';
+  contactPage.style.display = 'none'
+
 }
 if(localStorage.getItem('homePage') !== null){
   openHomeSection();
@@ -27,11 +32,14 @@ function openAboutSection(){
   localStorage.removeItem('homePage');
   localStorage.removeItem('servicePage');
   localStorage.removeItem('portfolioPage');
+  localStorage.removeItem('contactPage')
 
   homePage.style.display = 'none';
   aboutPage.style.display = 'flex';
   servicePage.style.display = 'none';
   portfolioPage.style.display = 'none';
+  contactPage.style.display = 'none'
+
 }
 if(localStorage.getItem('aboutPage')!== null){
   openAboutSection();
@@ -43,11 +51,14 @@ function openServiceSection(){
   localStorage.removeItem('aboutPage');
   localStorage.removeItem('homePage');
   localStorage.removeItem('portfolioPage');
+  localStorage.removeItem('contactPage')
   
   homePage.style.display = 'none';
   aboutPage.style.display = 'none';
   servicePage.style.display = 'flex';
   portfolioPage.style.display = 'none';
+  contactPage.style.display = 'none'
+  
 }
 if(localStorage.getItem('servicePage')!== null){
   openServiceSection();
@@ -57,13 +68,33 @@ function openPortfolioSection(){
   localStorage.getItem('portfolioPage');
   localStorage.removeItem('aboutPage');
   localStorage.removeItem('homePage')
-  localStorage.removeItem('servicePage')
+  localStorage.removeItem('servicePage');
+  localStorage.removeItem('contactPage')
   
   homePage.style.display = 'none';
   aboutPage.style.display = 'none';
   servicePage.style.display = 'none';
   portfolioPage.style.display = 'flex';
+  contactPage.style.display = 'none'
+
 }
 if(localStorage.getItem('portfolioPage')!== null){
   openPortfolioSection();
+}
+function openContactSection(){
+    localStorage.setItem('contactPage', 'contact');
+    localStorage.getItem('contactPage');
+    localStorage.removeItem('aboutPage');
+    localStorage.removeItem('homePage')
+    localStorage.removeItem('servicePage');
+    localStorage.removeItem('portfolioPage')
+  
+    homePage.style.display = 'none';
+    aboutPage.style.display = 'none';
+    servicePage.style.display = 'none';
+    portfolioPage.style.display = 'none';
+    contactPage.style.display = 'flex'
+}
+if (localStorage.getItem('contactPage') !== null) {
+  openContactSection();
 }

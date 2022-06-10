@@ -666,6 +666,7 @@ header nav .logo a{
   display: flex;
   align-items:center;
   justify-content:center;
+  display: none;
 }
 .container-contact{
   width: 100%;
