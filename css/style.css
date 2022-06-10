@@ -660,8 +660,54 @@ header nav .logo a{
   font-weight: 600;
   color: var(--style-font-color1);
 }
-
-
+.contact{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.container-contact{
+  width: 100%;
+  min-height: 500px;
+  
+}
+.contacts{
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contact-box{
+  width: 30%;
+  min-height: 180px;
+  box-shadow: var(--outer-shadow);
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  border-radius:5px;
+}
+.contact-box .contact-icon svg{
+   width:25px;
+   height:25px;
+   fill: var(--style-font-color2);
+}
+.contact-box .contact-name{
+  color: var(--style-font-color1);
+  font-weight: 600;
+  font-family: var(--daynamic-font);
+}
+.contact-box .contact-address{
+  color: var(--black-color);
+  font-weight: 400;
+  font-family: var(--daynamic-font);
+}
 
 
 
