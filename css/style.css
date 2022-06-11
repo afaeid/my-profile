@@ -769,6 +769,7 @@ header nav .logo a{
   padding: 20px;
   font-family: var(--daynamic-font);
   color: var(--black-color);
+  resize: none;
 }
 .mail-sender .submit{
   width: 100%;
