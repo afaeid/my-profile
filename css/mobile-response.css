@@ -128,7 +128,12 @@
 .contact-box{
   width: 100%;
 }
- 
+.mail-box .mail-info-box{
+  width: 100%;
+}
+.mail-box .mail-description-box{
+  width: 100%;
+} 
  
  
  
