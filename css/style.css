@@ -838,6 +838,7 @@ header nav .logo a{
   height: 50px;
   font-family: var(--daynamic-font);
   color: var(--style-font-color1);
+  padding: 0 20px;
   
 }
 .testimonial-comment::before{
@@ -849,7 +850,7 @@ header nav .logo a{
   top: -2px;
   font-size: 70px;
   font-weight: 500;
-  color: var(--semi-white-color);
+  color: #E5E5E5;
   
 }
 .testimonial-img{
@@ -880,7 +881,7 @@ header nav .logo a{
   bottom: 20px;
   font-size: 70px;
   font-weight: 500;
-  color: var(--semi-white-color);
+  color:#E5E5E5;
 }
 .testimonial-button{
   width: 100%;
