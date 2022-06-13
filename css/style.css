@@ -791,6 +791,106 @@ header nav .logo a{
   color: var(--semi-white-color);
   font-family: var(--daynamic-font);
 }
+.testimonial-cover{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--bg-color);
+}
+.testimonial-box{
+  width: 345px;
+  height: 200px;
+  overflow-y: hidden;
+  /*margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%,-50%);*/
+  box-shadow: var(--outer-shadow);
+  border-radius: 3px;
+}
+.testimonial-box section{
+  width: 345px;
+  height: 200px;
+/*  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;*/
+  transition: margin-top 0.6s ease;
+  margin-left: 5px;
+  position: relative;
+  padding: 15px;
+  
+
+}
+.testimonial-comment{
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-family: var(--daynamic-font);
+  color: var(--style-font-color1);
+  
+}
+.testimonial-comment::before{
+  content: "\201C";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -2px;
+  top: -3px;
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--semi-white-color);
+  
+}
+.testimonial-img{
+  width: 100%;
+  height: 100px;
+  display: grid;
+  place-content: center;
+}
+.testimonial-img img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: var(--outer-shadow);
+  padding: 5px;
+}
+.testimonial-user-name{
+  text-align: center;
+  font-family:var(--daynamic-font);
+  font-weight: 700;
+  color: var(--style-font-color1);
+}
+.testimonial-user-name::after{
+  content: "\201D";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 15px;
+  bottom: 20px;
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--semi-white-color);
+}
+.testimonial-button{
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.testimonial-button button{
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 10px 17px;
+  background: var(--bg-color);
+  box-shadow: var(--outer-shadow);
+  outline: none;
+  
+}
 
 
 
