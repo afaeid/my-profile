@@ -935,7 +935,10 @@ header nav .logo a{
 
 
 
-
+::selection{
+  background: var(--style-font-color2);
+  color: #FFFFFF;
+}
 
 /*====== MORE CSS ======*/
 svg{
