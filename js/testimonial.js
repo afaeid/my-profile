@@ -5,7 +5,7 @@
       if(x <  0){
       x += 200;
       testimonial.style.marginTop = x+'px';
-          console.log(x)
+        
       }
     } 
     
@@ -13,7 +13,7 @@
       if(x > '-600'){
       x -= 200;
       testimonial.style.marginTop = x+'px';
-          console.log(x)
+        
       }
     }
       
