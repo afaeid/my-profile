@@ -457,7 +457,7 @@ header nav .logo a{
   transform: rotate(45deg);
   z-index:-1;
 }*/
-.timelime-icon{
+.timeline-icon{
   position: absolute;
   left: 50%;
   top: 15px;
@@ -469,6 +469,7 @@ header nav .logo a{
   background: var(--bg-color);/*
   box-shadow: var(--outer-shadow)*/
   border: 1px solid #BABABA;
+  z-index: 90;
 }
 .timeline-cover .timeline-row .timeline-time{
   color: var(--style-font-color2);
@@ -577,7 +578,8 @@ header nav .logo a{
   border: none;
   outline: none;
   box-shadow: var(--inner-shadow);
-  border-radius: 50%
+  border-radius: 50%;
+  z-index: 90
 }
 .services-cover .services .service-box .service-logo button svg{
   width: 20px;
@@ -899,7 +901,7 @@ header nav .logo a{
   background: var(--bg-color);
   box-shadow: var(--outer-shadow);
   outline: none;
-  
+  z-index:90;
 }
 .testimonial-button button:hover{
   box-shadow: var(--inner-shadow)
