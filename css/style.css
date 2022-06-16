@@ -288,6 +288,7 @@ header nav .logo a{
   justify-content: center;
   margin: 0 5px;
   background: var(--bg-color);
+  z-index:90;
 }
 .main-bio .col-1 button svg{
   width: 18px;
@@ -298,7 +299,7 @@ header nav .logo a{
   width: 60%;
   color: var(--semi-white-color);
   font-family: var(--dynamic-font);
-  font-weight: 18;
+  font-weight: 400;
   font-size: 15px;
 }
 .main-bio .col-2 span{
