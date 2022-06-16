@@ -133,7 +133,13 @@
 }
 .mail-box .mail-description-box{
   width: 100%;
-} 
+}
+.setting-page{
+  width: 100%;
+  min-height: 100vh;
+}
+
+
 
  
  
