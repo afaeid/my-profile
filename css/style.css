@@ -278,6 +278,15 @@ header nav .logo a{
     align-items: center;
     justify-content: center;
 }
+.social-links button{
+  transition: transform 0.4s;
+}
+.social-links button svg{
+  pointer-events: none;
+}
+.social-links button:hover{ 
+  transform: scale(1.1)
+}
 .main-bio .col-1 button{
   width: 40px;
   height: 40px;
