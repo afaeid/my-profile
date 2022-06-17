@@ -1117,7 +1117,8 @@ svg{
   top: 5px;
   left: 85%;
   transform: translate(-300px, -5px);
-  animation:left-right 5s linear infinite alternate; 
+  animation:left-right 5s linear infinite alternate;
+  
 }
 .abstract-dots{
   width: 70px;
