@@ -257,7 +257,7 @@ header nav .logo a{
   padding: 1px;
   border-radius: 2px;
   padding: 8px;
- /* pointer-events: none;*/
+  pointer-events: none;
 }
 .main-bio .col-1 .img-cover{
   width: 280px;
