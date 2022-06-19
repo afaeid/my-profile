@@ -16,6 +16,9 @@ button,input{
   border: none;
   background: var(--bg-color);
 }
+body{
+  background: var(--bg-color);
+}
 .main-container{
   max-width: 1200px;
   min-height: 100vh;
