@@ -1107,6 +1107,7 @@ svg{
 }
 .btn-style{
   box-shadow: var(--outer-shadow);
+  cursor: pointer;
 }
 .btn-style:hover{
   box-shadow: var(--inner-shadow);
