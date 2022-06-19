@@ -16,7 +16,7 @@ button,input{
   background: var(--bg-color);
 }
 .main-container{
-  width: 100%;
+  max-width: 1200px;
   min-height: 100vh;
   background: var(--bg-color);
   position: relative;
@@ -135,7 +135,7 @@ header nav .logo a{
   font-family: var(--dynamic-font);
   font-weight: 500;
 }
-.row2 img{
+.row2 .profile-img{
  /* width: 350px;
   height:350px;*/
   border-radius: 50%;
@@ -1114,9 +1114,6 @@ svg{
 .point-none{
   pointer-events: none;
 }
-.abstract-default{
-  position: absolute;
-}
 .bg-load{
   background: #C3D2FF;
 }
@@ -1127,7 +1124,22 @@ svg{
   left: 85%;
   transform: translate(-300px, -5px);
   animation:left-right 5s linear infinite alternate;
-  
+  position: absolute;
+}
+.abstract-arrow{
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 55%;
+  z-index: -1
+}
+.abstract-square{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 5px solid #7C4DFF;
+  margin-top: 30%;
+  margin-left: 87%;
+  z-index: -1;
 }
 .abstract-dots{
   width: 70px;
@@ -1137,15 +1149,8 @@ svg{
   z-index: 1;
   animation:up-down 5s linear infinite alternate;
   transform: translate(-50%, -50%)
-}
-.abstract-arrow{
-  width: 50px;
-  height: 50px;
-  transform: translate(-50%,-50%);
-  top: 42%;
-  left: 60%;
-  z-index: 1;
-}
+} 
+
 @keyframes left-right{
   from{
     left:80%;

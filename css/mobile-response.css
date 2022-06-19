@@ -175,8 +175,13 @@
   animation:up-down 5s linear infinite alternate;
 }
 .abstract-arrow{
-  top: 20%;
-  left: 20%;
+  top: 25%;
+  margin-left: 5%;
+}
+.abstract-square{
+  margin-left: 72%;
+  margin-top: -50px;
+   
 }
 @keyframes left-right{
   from{
