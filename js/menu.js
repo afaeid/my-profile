@@ -17,5 +17,7 @@ var navLi = document.querySelectorAll('.nav-links ul li');
 navLi.forEach(li=>{
   li.onclick = ()=>{
     menu.style.display ='none';
+    menuCloseBtn.style.display = 'none';
+    menuOpenBtn.style.display = 'inline-block'
   }
 })
