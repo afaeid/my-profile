@@ -291,7 +291,7 @@ nav .menu-close-btn{
   pointer-events: none;
 }
 .social-links button:hover{ 
-  transform: scale(1.1)
+  transform: scale(1.2)
 }
 .main-bio .col-1 button{
   width: 40px;
