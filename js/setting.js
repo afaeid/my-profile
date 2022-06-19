@@ -5,6 +5,7 @@ var defaultFont = document.querySelector('.default-font');
 var ubuntuFont = document.querySelector('.ubuntu-font');
 var robotoFont = document.querySelector('.roboto-font');
 var poppinsFont = document.querySelector('.poppins-font');
+var allFonts = document.querySelectorAll('.fonts section')
 function openSettingPage(){
   settingPage.classList.add('openSettingPage');
   settingBtn.style.display = 'none';
@@ -47,8 +48,8 @@ function switchUbuntuFont(){
   document.body.classList.add('ubuntu');
   document.body.classList.remove('roboto');
   document.body.classList.remove('poppins');
-  
-  defaultFont.style.boxShadow = 'var(--outer-shadow)';
+
+ defaultFont.style.boxShadow = 'var(--outer-shadow)';
   ubuntuFont.style.boxShadow = 'var(--inner-shadow)';
   robotoFont.style.boxShadow = 'var(--outer-shadow)';
   poppinsFont.style.boxShadow = 'var(--outer-shadow)';
@@ -72,6 +73,10 @@ function switchRobotoFont(){
   ubuntuFont.style.boxShadow = 'var(--outer-shadow)';
   robotoFont.style.boxShadow = 'var(--inner-shadow)';
   poppinsFont.style.boxShadow = 'var(--outer-shadow)';
+  /*
+ if(document.body.classList.contains('roboto')){
+ robotoFont.style.boxShadow = 'var(--inner-shadow)';
+}*/
 }
 if(localStorage.getItem('robotoFont')!== null){
   switchRobotoFont();
@@ -88,12 +93,33 @@ function switchPoppinsFont(){
   document.body.classList.remove('ubuntu');
   document.body.classList.remove('roboto');
   document.body.classList.add('poppins');
-  
+ 
   defaultFont.style.boxShadow = 'var(--outer-shadow)';
   ubuntuFont.style.boxShadow = 'var(--outer-shadow)';
   robotoFont.style.boxShadow = 'var(--outer-shadow)';
   poppinsFont.style.boxShadow = 'var(--inner-shadow)';
+
 }
+
 if (localStorage.getItem('poppinsFont') !== null) {
   switchPoppinsFont();
 }
+/*
+allFonts.forEach(section=>{
+  section.onclick = ()=>{
+ 
+ 
+ if (document.body.classList.contains('ubuntu')) {
+    ubuntuFont.style.boxShadow = 'var(--inner-shadow)';
+  } 
+ if(document.body.classList.contains('poppins')){
+ poppinsFont.style.boxShadow = 'var(--inner-shadow)';
+  }
+ if(document.body.classList.contains('roboto')){
+   section.style.boxShadow = 'var(--inner-shadow)'
+ } 
+  
+  
+}
+})
+*/
