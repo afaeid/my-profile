@@ -993,6 +993,7 @@ nav .menu-close-btn{
   color: var(--style-font-color1);
   transition:all 0.4s;
   background: var(--bg-color);
+  font-weight: 700;
 }
 .fonts section:hover{
   transform: translateY(-5px);
