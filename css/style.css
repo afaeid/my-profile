@@ -358,7 +358,7 @@ nav .menu-close-btn{
   text-align: center;
   overflow-y: auto;
   white-space: nowrap;
-  padding: 10px;
+  padding: 15px;
   margin: 10px 0;
   background: var(--bg-color);
   transition: position 0.4s ;
@@ -1201,7 +1201,10 @@ svg{
 /*  Copyright © 2022 Afaeid Sarker. All rights reserved by Afaeid Sarker  */
 .fixed{
   position: fixed;
-  z-index: 1000;
+  z-index: 99;
   top:0;
-  
+  left: 0;
+  border-bottom: 1px solid #CFCFCF;
+  margin: 0;
+  /* padding: 15px 20px 0 20px; */
 }
