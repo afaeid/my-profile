@@ -245,7 +245,8 @@ nav .menu-close-btn{
   min-height: 500px;
   display: flex;
   justify-content: space-between;
-  padding: 50px 0px;
+  padding: 50px 0 0 0;
+  /* margin: 50px 0; */
 }
 .main-bio .col-1{
   width: 35%;
@@ -373,6 +374,7 @@ nav .menu-close-btn{
   width: 100%;
   min-height: 500px;
   background: var(--bg-color);
+  margin-top:35px;
 }
 .progressbar-and-timeline .changeable-section .progressbars{
   width: 100%;
