@@ -64,7 +64,6 @@ nav .menu-close-btn{
   width: 100%;
   min-height: 100vh;
   background: var(--bg-color);
-  /* background: green; */
   position: fixed;
   top: 0;
   display: flex;
@@ -72,7 +71,6 @@ nav .menu-close-btn{
   justify-content: center;
   display: none;
   z-index: 101; 
-  /* padding: 0 40   px; */
 }
 .nav-links button{
   position: absolute;
@@ -512,12 +510,13 @@ nav .menu-close-btn{
 }
 .timeline-cover .timeline-row 
 .timeline-title{
-  line-height: 50px;
+  /* line-height: 50px; */
   font-size: 20px;
   font-weight: 600;
   font-family: var(--dynamic-font);
   color: var(--style-font-color1);
-  margin-left: 3px;
+  /* margin-left: 3px; */
+  margin: 10px 0;
 }
 .timeline-cover .timeline-row
 .timeline-place{
