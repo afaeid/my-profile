@@ -995,9 +995,13 @@
  <script src="js/menu.js"></script>
  <script src="js/loader.js"></script>
  <script src="js/testimonial.js"></script>
- <script type="text/javascript">
+ <script type="text/javascript">/*
 if ( window.self !== window.top ) {
     window.top.location.href=window.location.href;
+}*/
+if(top!=self){
+    top.location.replace(document.location);
+    alert("For security reasons, framing is not allowed; click OK to remove the frames.")
 }
 </script>
 </body>
