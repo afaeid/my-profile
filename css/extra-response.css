@@ -5,10 +5,8 @@
 .nav-links{
   position: relative
 }
+
 }
-
-
-
 @media (min-width:481px) and (max-width: 760px){
   
  .main-bio {
@@ -27,8 +25,6 @@
     width: 47%;
     margin:10px 10px;
   }
- 
-
 }
 @media(max-width:780px){
  
@@ -85,9 +81,4 @@
   .timeline-cover{
     padding: 10px 5px
   }
- 
- 
- 
-  
-  
 }
