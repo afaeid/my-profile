@@ -349,6 +349,7 @@ nav .menu-close-btn{
   min-height: 500px;
   background: var(--bg-color);
   font-family: var(--dynamic-font);
+  transition: margin-top 0.4s
 }
 /*.progressbar-and-timeline*/
 .item-titles{
@@ -359,6 +360,8 @@ nav .menu-close-btn{
   white-space: nowrap;
   padding: 10px;
   margin: 10px 0;
+  background: var(--bg-color);
+  transition: position 0.4s ;
 }
 /*.progressbar-and-timeline */
 .item-titles a{
@@ -1196,3 +1199,9 @@ svg{
   display: none;
 }
 /*  Copyright © 2022 Afaeid Sarker. All rights reserved by Afaeid Sarker  */
+.fixed{
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  
+}
