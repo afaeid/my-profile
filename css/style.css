@@ -1204,7 +1204,7 @@ svg{
   z-index: 99;
   top:0;
   left: 0;
-  border-bottom: 1px solid #CFCFCF;
+  border-bottom: 1px solid var(--semi-black-color);
   margin: 0;
   /* padding: 15px 20px 0 20px; */
 }

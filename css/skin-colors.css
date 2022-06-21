@@ -2,6 +2,7 @@
   --bg-color:#F4F5FF;
   --black-color:#000000;
   --semi-white-color:#414141;
+  --semi-black-color:#CDCDCD;
   --loading-color:#CED2FF;
   --style-font-color1:#42445A;
   --style-font-color2: #F48FB1;
@@ -15,6 +16,7 @@
  --bg-color: #2B2C30;
  --black-color:#FFFFFF;
  --semi-white-color:#E1E1E1;
+ --semi-black-color:#4D4F5E;
  --style-font-color1:#FFFFFF;
  --outer-shadow: 1px 1.5px 2px 0px #232428,
                 -1px -1px 2px 1px #323234;
