@@ -1,6 +1,10 @@
   // For about page 
   var pntContent = document.querySelector('.progressbar-and-timeline');
-  var pntTitles = document.querySelector('.item-titles')
+  var pntTitles = document.querySelector('.item-titles');
+  
+var prtfloContent = document.querySelector('.portfolio-cover');
+var prtTitles = document.querySelector('.prt-item-titles');
+var prtCover = document.querySelector('.prtfolio') 
   window.onscroll = ()=>{
     if(window.pageYOffset >= pntContent.offsetTop){
       pntTitles.classList.add('pntfixed');
@@ -11,7 +15,7 @@
     }
     if(window.pageYOffset >= prtCover.offsetTop){
       prtTitles.classList.add('prtfixed');
-      prtfloContent.style.paddingTop = '60px';
+      prtfloContent.style.paddingTop = '80px';
     }else{ 
       prtTitles.classList.remove('prtfixed');
       prtfloContent.style.paddingTop = '0px';
@@ -24,9 +28,6 @@
  
 // For Portfolio Page
 
-var prtfloContent = document.querySelector('.portfolios');
-var prtTitles = document.querySelector('.prt-item-titles');
-var prtCover = document.querySelector('.prtfolio')
   // window.onscroll = ()=>{
     
    /*   var abc = pageYOffset;
