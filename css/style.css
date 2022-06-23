@@ -812,13 +812,19 @@ nav .menu-close-btn{
   align-items:center; 
 }
 .mail-sender .submit button{
+  min-width: 143px;
   padding: 10px;
   border-radius: 20px;
   font-family: var(--dynamic-font);
   color: var(--style-font-color2);
   font-weight: 600;
-  cursor: pointer
-  
+  cursor: pointer;
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.mail-sender .submit button svg{
+  fill: var(--style-font-color2)
 }
 ::placeholder{
   color: var(--semi-white-color);
