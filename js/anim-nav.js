@@ -2,9 +2,10 @@
   var pntContent = document.querySelector('.progressbar-and-timeline');
   var pntTitles = document.querySelector('.item-titles');
   
-var prtfloContent = document.querySelector('.portfolio-cover');
+var prtfloContent = document.querySelector('.prtfolio');
 var prtTitles = document.querySelector('.prt-item-titles');
-var prtCover = document.querySelector('.prtfolio') 
+var prtTitlesA = document.querySelectorAll('.prt-item-titles a');
+var prtCover = document.querySelector('.portfolios') 
   window.onscroll = ()=>{
     if(window.pageYOffset >= pntContent.offsetTop){
       pntTitles.classList.add('pntfixed');
@@ -13,12 +14,12 @@ var prtCover = document.querySelector('.prtfolio')
       pntTitles.classList.remove('pntfixed');
       pntContent.style.paddingTop = '0px';
     }
-    if(window.pageYOffset >= prtCover.offsetTop){
+    if(window.pageYOffset >= prtfloContent.offsetTop){
       prtTitles.classList.add('prtfixed');
-      prtfloContent.style.paddingTop = '80px';
+      prtCover.style.paddingTop = '80px';
     }else{ 
       prtTitles.classList.remove('prtfixed');
-      prtfloContent.style.paddingTop = '0px';
+      prtCover.style.paddingTop = '15px';
     }
    /*   var abc = pageYOffset;
   console.log(abc);*/
