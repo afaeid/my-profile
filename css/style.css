@@ -823,6 +823,7 @@ nav .menu-close-btn{
   display: flex;
   align-items:center;
   justify-content:space-around;
+  z-index: 99;
 }
 .mail-sender .submit button svg{
   fill: var(--style-font-color2)
