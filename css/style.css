@@ -11,6 +11,7 @@
 }
 html{
   scroll-behavior: smoth;
+  background: var(--bg-color);
 }
 a{
   text-decoration: none;
@@ -814,7 +815,7 @@ nav .menu-close-btn{
 .mail-sender .submit button{
   min-width: 143px;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 30px;
   font-family: var(--dynamic-font);
   color: var(--style-font-color2);
   font-weight: 600;
