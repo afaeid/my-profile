@@ -1,4 +1,4 @@
-  // For about page 
+  // For about and portfolio page 
   var pntContent = document.querySelector('.progressbar-and-timeline');
   var pntTitles = document.querySelector('.item-titles');
   
