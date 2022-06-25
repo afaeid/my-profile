@@ -197,7 +197,7 @@
      <p>Besides, I also love to learn Web Development. Web Development is my hobby. </p>
      <div class="bio-button">
 <a href="afaeid_cv.pdf" download onclick="alert('Download has started. Check your notification.')"> <button  class="button btn-style">Download CV</button></a>
-<a href="#contact">  <button class="button btn-style" onclick="openContactSection()">Hire Me</button></a> 
+<a href="#contact" id="con">  <button class="button btn-style" onclick="openContactSection();document.getElementById('con').setAttribute('href','#user-name')">Hire Me</button></a> 
      </div>
      
    </div>
@@ -975,7 +975,7 @@
   <div class="mail-sender">
     <form class="mail-box">
       <div class="mail-info-box">
-        <input type="text" class="username"  placeholder="Name">
+        <input type="text" class="username"  placeholder="Name" id="user-name">
         <input type="gmail" class="email" placeholder="Email">
         <input type="text" class="subject" placeholder="Subject">
       </div>
