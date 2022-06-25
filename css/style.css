@@ -363,7 +363,6 @@ nav .menu-close-btn{
   padding: 15px;
   margin: 10px 0;
   background: var(--bg-color);
-  transition: position 0.4s ;
 }
 /*.progressbar-and-timeline */
 .item-titles a{
