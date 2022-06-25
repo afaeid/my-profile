@@ -1,9 +1,15 @@
 var subBtn = document.querySelector('.mail-sender .submit button');
-subBtn.onclick = ()=>{
-  document.querySelector('.mail-sender .username').value = '';
-  document.querySelector('.mail-sender .email').value = '';
-  document.querySelector('.mail-sender .subject').value = '';
-  document.querySelector('.mail-sender textarea').value = '';
+var userName =  document.querySelector('.mail-sender .username');
+var userEmail = document.querySelector('.mail-sender .email')
+var userSebject = document.querySelector('.mail-sender .subject');
+var userMsg = document.querySelector('.mail-sender textarea');
 
-  alert('Sorry! For security reasons we are currently disable to send messages from web. We are trying to fix it as soon as possible')
+subBtn.onclick = ()=>{
+userName.value = '';
+userEmail.value = '';
+userSebject.value = '';
+userMsg.value = '';
+
+alert('Sorry! For security reasons we are currently disable to send messages from web. We are trying to fix it as soon as possible')
+
 }
