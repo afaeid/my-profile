@@ -384,7 +384,7 @@ nav .menu-close-btn{
   width: 100%;
   min-height: 500px;
   background: var(--bg-color);
-  margin-top:35px;
+  margin-top:25px;
 }
 .progressbar-and-timeline .changeable-section .progressbars{
   width: 100%;
