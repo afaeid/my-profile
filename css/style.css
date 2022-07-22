@@ -363,8 +363,8 @@ nav .menu-close-btn{
   padding: 15px;
   margin: 10px 0;
   background: var(--bg-color);
-  transition:0.4s cubic-bezier(0.23, 1, 0.320, 1) ;
-  transition-property: position, width, height, padding, margin
+  transition:0.4s cubic-bezier(0.19, 1, 0.22, 1) ;
+  transition-property: position, width, height, margin
   
 }
 /*.progressbar-and-timeline */
